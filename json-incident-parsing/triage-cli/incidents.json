@@ -1,0 +1,7 @@
+{
+  "incidents": [
+    { "id": "INC-001", "status": "open", "priority": 1, "assignee": "alice", "tags": ["payments"] },
+    { "id": "INC-002", "status": "open", "priority": 1, "assignee": null, "tags": [] },
+    { "id": "INC-003", "status": "resolved", "priority": 3, "assignee": null, "tags": ["ui"] }
+  ]
+}
