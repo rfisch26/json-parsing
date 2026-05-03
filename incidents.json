@@ -1,0 +1,76 @@
+{
+  "incidents": [
+    {
+      "id": "INC-001",
+      "title": "Payment gateway returning 502 errors",
+      "status": "open",
+      "priority": 1,
+      "assignee": "alice",
+      "tags": ["payments", "gateway"],
+      "createdAt": "2025-04-28T09:14:00Z"
+    },
+    {
+      "id": "INC-002",
+      "title": "Auth tokens expiring prematurely",
+      "status": "open",
+      "priority": 1,
+      "assignee": null,
+      "tags": ["auth", "security"],
+      "createdAt": "2025-04-28T11:02:00Z"
+    },
+    {
+      "id": "INC-003",
+      "title": "Dashboard graph rendering blank for some users",
+      "status": "in-progress",
+      "priority": 2,
+      "assignee": "bob",
+      "tags": ["ui", "dashboard"],
+      "createdAt": "2025-04-29T08:30:00Z"
+    },
+    {
+      "id": "INC-004",
+      "title": "CSV export silently truncating rows over 10k",
+      "status": "open",
+      "priority": 2,
+      "assignee": null,
+      "tags": ["exports", "data"],
+      "createdAt": "2025-04-29T14:55:00Z"
+    },
+    {
+      "id": "INC-005",
+      "title": "Webhook retries flooding internal queue",
+      "status": "open",
+      "priority": 1,
+      "assignee": "alice",
+      "tags": ["webhooks", "queue"],
+      "createdAt": "2025-04-30T07:12:00Z"
+    },
+    {
+      "id": "INC-006",
+      "title": "Incorrect VAT calculation on EU invoices",
+      "status": "open",
+      "priority": 2,
+      "assignee": null,
+      "tags": ["payments", "billing"],
+      "createdAt": "2025-04-30T10:44:00Z"
+    },
+    {
+      "id": "INC-007",
+      "title": "Password reset emails going to spam",
+      "status": "resolved",
+      "priority": 3,
+      "assignee": "carol",
+      "tags": ["auth", "email"],
+      "createdAt": "2025-04-25T16:00:00Z"
+    },
+    {
+      "id": "INC-008",
+      "title": "Search returning stale results after index rebuild",
+      "status": "in-progress",
+      "priority": 2,
+      "assignee": "bob",
+      "tags": ["search", "indexing"],
+      "createdAt": "2025-05-01T09:05:00Z"
+    }
+  ]
+}
