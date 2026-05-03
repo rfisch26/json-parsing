@@ -1,6 +1,6 @@
 # Incident Triage CLI
 
-A TypeScript command-line tool for querying, filtering, and managing a security incident backlog — built for speed during on-call triage.
+A TypeScript command-line tool for querying, filtering, and managing a security incident backlog–built for speed during on-call triage.
 
 ## Features
 
